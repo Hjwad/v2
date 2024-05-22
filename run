@@ -65,7 +65,7 @@ sudo rm -fr ../.telegram-cli
 done
 else
 
-if ! screen -list | grep -q "CZAR"; then
+if ! screen -list | grep -q "BOSS"; then
 screen -S BOSS ./run R
 fi
 screen -S BOSS -X kill
